@@ -111,19 +111,16 @@ body {
 /* nav-inner */
 .nav-inner {
   display: flex;
-  /* width: 294px; */
   padding-top: 32px;
   padding-bottom: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .nav-inner .header-link {
   color: var(--secondary-text-color);
-  /* display: block;
-  padding: 5px; */
 }
 
 .header-links + .header-links {
@@ -136,7 +133,6 @@ body {
 }
 
 /* conntacs */
-
 .contacts-header {
   display: flex;
   padding-top: 32px;
@@ -298,8 +294,6 @@ body {
   min-width: 206px;
   justify-content: center;
   padding-bottom: 24px;
-  /* padding-right: 32px;
-  padding-left: 32px; */
 }
 
 .team-text {
@@ -328,11 +322,9 @@ body {
 .link-company:focus {
   border: 1px solid var(--accent-text-color);
 }
-/* filter-nav*/
 
-.filters {
-}
-
+/* Portfolio */
+/* button */
 .button-filter {
   padding: 6px 22px;
   color: black;
@@ -360,14 +352,11 @@ body {
   margin-right: 8px;
 }
 
-/* portfolio */
 .filtr {
   display: flex;
-  /* align-items: flex-start; */
   justify-content: center;
   margin-top: 93px;
   margin-bottom: 34px;
-  /* background-color: deeppink; */
   padding-bottom: 16px;
 }
 
@@ -387,7 +376,6 @@ body {
 }
 
 .portfolio-pages {
-  /* background-color: yellow; */
   flex-wrap: wrap;
   margin-top: 0;
   margin-bottom: 94px;
@@ -395,7 +383,6 @@ body {
 .page {
   margin-right: 30px;
   margin-bottom: 30px;
-  /* background-color: salmon; */
   width: calc((100% - 60px) / 3);
 }
 
@@ -418,7 +405,7 @@ body {
   display: none;
 }
 
-/* footer */
+/* Footer */
 .footer-block {
   height: 252px;
   background-color: #2f303a;
@@ -556,18 +543,15 @@ body {
 
 .customers-box {
   width: 1170px;
-  /* background-color: lawngreen; */
   padding-bottom: 94px;
   padding-top: 94px;
 }
 .advantages-box {
-  /* background-color: salmon; */
   padding-top: 94px;
 }
 
 .section-box {
   padding-top: 97px;
   padding-bottom: 91px;
-  /* background-color: indigo; */
   text-align: center;
 }
