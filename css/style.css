@@ -67,19 +67,15 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* .main-container {
-  width: 1600px;
-  background-color: aquamarine;
-} */
-
 .container {
-  /* background-color: yellow; */
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
+
+/* Header */
 .header {
   border: 1px solid rgba(117, 117, 117, 0.3);
 }
@@ -92,13 +88,9 @@ body {
 .header-nav {
   display: flex;
   align-items: center;
-  /* border: 1px solid #ececec; */
-  /* background-color: bisque; */
 }
 
-/* header */
-/* nav-header */
-/* logo */
+/* Logo*/
 
 .logo {
   padding-top: 25px;
