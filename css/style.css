@@ -250,8 +250,8 @@ body {
 }
 
 .works-title {
-  min-width: 370px;
-  padding: 27px 82px;
+  width: 370px;
+  padding: 27px 0;
 
   background-color: var(--primery-text-color);
   color: var(--third-text-color);
@@ -312,10 +312,11 @@ body {
 }
 
 .link-company {
-  display: block;
+  display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
   width: 170px;
+  height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
